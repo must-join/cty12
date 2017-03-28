@@ -135,4 +135,3 @@ $(".i7").click(
 
 
 
-var s = skrollr.init();
