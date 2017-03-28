@@ -27,7 +27,7 @@ p {
 }
 
 header.jumbotron {
-  background-image: url(http://i.imgur.com/FgYdrL0.png);
+  background-image: url(../img/10.png);
   background-size: cover;
   background-attachment: fixed;
   height: 700px;
@@ -212,7 +212,7 @@ section#QA {
 }
 
 footer.jumbotron {
-  background: url(http://i.imgur.com/FgYdrL0.png);
+  background: url(../img/10.png);
   background-size: cover;
   background-attachment: fixed;
   margin-bottom: 0px;
