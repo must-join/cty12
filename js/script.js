@@ -18,28 +18,28 @@ $("html,body").animate({scrollTop:675},900);
 });
 
 $(".p2").click(function(){
-$("html,body").animate({scrollTop:1600},900);
+$("html,body").animate({scrollTop:1360},900);
     return false;
   });
 
 $(".p3").click(function(){
-$("html,body").animate({scrollTop:2880},900);
+$("html,body").animate({scrollTop:2580},900);
     return false;
   });
 
 $(".p4").click(function(){
-$("html,body").animate({scrollTop:3927},900);
+$("html,body").animate({scrollTop:3366},900);
     return false;
   });
 
 
 $(".p5").click(function(){
-$("html,body").animate({scrollTop:4807},900);
+$("html,body").animate({scrollTop:4191},900);
     return false;
   });
 
 $(".p6").click(function(){
-$("html,body").animate({scrollTop:5728.88},900);
+$("html,body").animate({scrollTop:5028.88},900);
     return false;
   });
 
@@ -55,6 +55,7 @@ $("html,body").animate({scrollTop:6656.25},900);
 $(".cs").mouseenter(
   function() {
     $(this).css("background", "rgba(255,255,255,0.4)")
+    
   }
 );
 
@@ -63,6 +64,11 @@ $(".cs").mouseleave(
     $(this).css("background", "rgba(255,255,255,0)")
   }
 );
+
+
+
+
+
 
 // 實習計畫區
 $(".intern").mouseenter(
@@ -121,7 +127,6 @@ $(".i5").click(
 $(".i6").click(
   function() {
     $(".discription").css("background-image", "url(https://scontent.xx.fbcdn.net/v/t1.0-9/13934687_1313279555378799_1921177445558298890_n.jpg?oh=1e677379d363ab96520bc9e2f804bfe5&oe=596FB82E)");
-    $(".discription_text").text("小玉山的實習生每週需至協會排班，此為實習生的基本義務，並在排班時也可以更加了解協會內部處理事務嚴謹且高效率的的方式及制度");
 
   });
 
@@ -132,6 +137,7 @@ $(".i7").click(
 
   });
 
-    var s = skrollr.init();
 
 
+
+var s = skrollr.init();

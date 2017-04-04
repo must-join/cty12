@@ -27,7 +27,7 @@ p {
 }
 
 header.jumbotron {
-  background-image: url(../img/10.png);
+  background-image: url(https://github.com/ymj-cty12/cty12/blob/master/img/10.png?raw=true);
   background-size: cover;
   background-attachment: fixed;
   height: 700px;
@@ -88,10 +88,14 @@ section#section_about img {
 
 section#section_activities {
   text-align: center;
+  position: relative;
 }
 section#section_activities img {
-  width: 100%;
+  width: 95%;
   margin-top: 30px;
+}
+section#section_activities img:hover {
+  width: 100%;
 }
 section#section_activities h1 {
   text-align: left;
@@ -102,12 +106,27 @@ section#section_courses {
   color: #171936;
   text-align: center;
   cursor: default;
-}
-section#section_courses .cs {
-  height: 380px;
+  position: relative;
 }
 section#section_courses h1 {
   text-align: left;
+}
+section#section_courses .cs h4 {
+  color: #555;
+}
+section#section_courses .cs p {
+  position: relative;
+  opacity: 0;
+  height: 0px;
+  transform: translateY(-20%);
+}
+section#section_courses .cs:hover h4 {
+  opacity: 0;
+  transform: translateY(-30%);
+}
+section#section_courses .cs:hover p {
+  opacity: 1;
+  height: 120px;
 }
 section#section_courses .img_wrap {
   height: 200px;
@@ -115,6 +134,7 @@ section#section_courses .img_wrap {
   margin: 0px auto;
   border-radius: 100%;
   overflow: hidden;
+  position: relative;
 }
 section#section_courses img {
   width: 120%;
@@ -195,15 +215,94 @@ section#section_CTY12 .logo2 {
 
 section#section_team {
   background-color: #D2D339;
-  text-align: center;
 }
 section#section_team .img_wrap {
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 350px;
+  height: 230px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+section#section_team .img_wrap .wrap_10 {
+  background-color: white;
+}
+section#section_team .img_wrap .img2 {
+  width: 120%;
+  margin-left: -30px;
+}
+section#section_team .img_wrap .img4 {
+  width: 160%;
+  margin-left: -100px;
+}
+section#section_team .img_wrap .img7 {
+  width: 120%;
+  margin-left: -20px;
+}
+section#section_team .img_wrap .img8 {
+  width: 160%;
+  margin-left: -100px;
+}
+section#section_team .img_wrap .img9 {
+  width: 140%;
+  margin-left: -80px;
+  margin-top: -20px;
+}
+section#section_team .img_wrap .img10 {
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+section#section_team .img_wrap .img11 {
+  width: 140%;
+  margin-left: -70px;
+  margin-top: -20px;
+}
+section#section_team .img_wrap .img13 {
+  width: 150%;
+  margin-left: -90px;
+  margin-top: -40px;
+}
+section#section_team .img_wrap .img14 {
+  width: 150%;
+  margin-left: -100px;
+  margin-top: -30px;
+}
+section#section_team .img_wrap .img15 {
+  width: 100%;
+  margin-left: 0px;
+  margin-top: -40px;
+}
+section#section_team .img_wrap .img17 {
+  width: 120%;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 section#section_team img {
   width: 100%;
+}
+section#section_team .image-caption-wrapper {
+  position: absolute;
+  top: auto;
+  bottom: 20px;
+  left: auto;
+  right: auto;
+  padding: 0px 18px;
+  background: rgba(23, 25, 54, 0.7);
+  width: 350px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+section#section_team .image-caption-wrapper .image-caption {
+  color: #EEF8FA;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+.hide {
+  display: hide;
+}
+
+.block {
+  display: block;
 }
 
 section#QA {
@@ -212,7 +311,8 @@ section#QA {
 }
 
 footer.jumbotron {
-  background: url(../img/10.png);
+  position: relative;
+  background: url(https://github.com/ymj-cty12/cty12/blob/master/img/10.png?raw=true);
   background-size: cover;
   background-attachment: fixed;
   margin-bottom: 0px;
