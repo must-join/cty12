@@ -127,6 +127,7 @@ $(".i5").click(
 $(".i6").click(
   function() {
     $(".discription").css("background-image", "url(https://scontent.xx.fbcdn.net/v/t1.0-9/13934687_1313279555378799_1921177445558298890_n.jpg?oh=1e677379d363ab96520bc9e2f804bfe5&oe=596FB82E)");
+    $(".discription_text").text("小玉山的實習生每週需至協會排班，此為實習生的基本義務，並在排班時也可以更加了解協會內部處理事務嚴謹且高效率的的方式及制度!");
 
   });
 
