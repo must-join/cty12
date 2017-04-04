@@ -10,43 +10,43 @@ $(window).scroll(function(evt) {
 // 超連結效果
 
 $(function(){
-  
-  $(".p1").click(function(){
+	
+	$(".p1").click(function(){
 $("html,body").animate({scrollTop:675},900);
-    return false;
-  });
+		return false;
+	});
 });
 
 $(".p2").click(function(){
 $("html,body").animate({scrollTop:1360},900);
-    return false;
-  });
+		return false;
+	});
 
 $(".p3").click(function(){
 $("html,body").animate({scrollTop:2580},900);
-    return false;
-  });
+		return false;
+	});
 
 $(".p4").click(function(){
 $("html,body").animate({scrollTop:3366},900);
-    return false;
-  });
+		return false;
+	});
 
 
 $(".p5").click(function(){
 $("html,body").animate({scrollTop:4191},900);
-    return false;
-  });
+		return false;
+	});
 
 $(".p6").click(function(){
 $("html,body").animate({scrollTop:5028.88},900);
-    return false;
-  });
+		return false;
+	});
 
 $(".p7").click(function(){
 $("html,body").animate({scrollTop:6656.25},900);
-    return false;
-  });
+		return false;
+	});
 
 
 
