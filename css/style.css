@@ -316,6 +316,20 @@ section#QA {
   color: #EEF8FA;
 }
 
+
+section#sponsers{
+  background-color: white;
+}
+
+section#sponsers img{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+
 footer.jumbotron {
   position: relative;
   background: url(https://github.com/ymj-cty12/cty12/blob/master/img/10.jpg?raw=true);
