@@ -89,7 +89,7 @@ $(".intern").mouseleave(
 // 提攜人
 $(".i1").click(
   function() {
-    $(".discription_img").css("background-image", "url(intern/1.png)");
+    $(".discription_img").css("background-image", "url(https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/17359401_1434739046601414_6162979223411956638_o.png?oh=9ff5fec5ae6b5d47daac0ce18f6b38a5&oe=59C86AFD)");
     $(".discription_text").text("由台灣玉山科技協會之會員擔任小玉山實習生之業界導師，實習生可透過與成就傑出的導師近身學習之機會，養成廣大宏遠的視野與切身了解各產業概況，獲取最新一手的產業資訊與培養未來就業能力。四大會計事務所、工研院、投資銀行、創投公司、法律事務所、資策會、顧問公司等來自各大領域的領導者都有機會成為你的mentor！");
 
   });
@@ -98,7 +98,7 @@ $(".i1").click(
 
 $(".i2").click(
   function() {
-    $(".discription_img").css("background-image", "url(intern/2.jpg)");
+    $(".discription_img").css("background-image", "url(https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/15621698_1308574895884497_7511451178087690591_n.jpg?oh=1c8e0a1b88113db4b37c933e1867b342&oe=59CCAC62)");
     $(".discription_text").text("於每年上學期舉辦論壇，是第一個實習生親手籌辦的大活動！由主題製定、邀請講師至當天實際執行全權交給當屆實習生來進行。去年第一屆以產業趨勢及跨領域為主題，創造與CTY不同的主題，藉由座談會及分桌形式來拉近產學間的鴻溝。");
 
   });
@@ -112,14 +112,14 @@ $(".i3").click(
 
 $(".i4").click(
   function() {
-    $(".discription_img").css("background-image", "url(intern/4.jpg)");
+    $(".discription_img").css("background-image", "url(https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/17434859_1592858287408739_2480376463263200957_o.jpg?oh=9870bcb7475640ff6c3ec66836769724&oe=59C7AF4F)");
     $(".discription_text").text("「溝通實務」、「台陸的關係與近期發展」、「心智圖」、「創業實務」、「高橋流簡報技巧」、「禮儀課」 等內容豐富的課程，由小玉山的幹事群邀請來自不同領域的專家為實習生上課，使實習生在團隊合作、舉辦活動時能夠更加流暢 ！");
 
   });
 
 $(".i5").click(
   function() {
-    $(".discription_img").css("background-image", "url(intern/5.jpg)");
+    $(".discription_img").css("background-image", "url(https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/19787198_1713355695358997_7915592717532768038_o.jpg?oh=33b454c899de28e4a80b34ab5d10ba7d&oe=59C5E796)");
     $(".discription_text").text("與當地名校學術交流，至趨勢新創企業參訪，能踏出台灣增廣國際視野！玉山科技協會在全球共有14個分會，這些據點都有可能成為當年度的海外參訪地點 ！");
 
   });
