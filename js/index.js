@@ -1,3 +1,12 @@
+$(window).ready(
+  function(){
+    if(confirm ("CTY13 現正報名中！ 立即前往CTY13頁面觀看最新資訊!")){　       
+    window.open("https://goo.gl/wK1PfY");  　 
+  }
+    }
+);
+
+
 $(window).scroll(function(evt) {
   if ($(window).scrollTop() > 0)
     $(".navbar").removeClass("navbar-top");
